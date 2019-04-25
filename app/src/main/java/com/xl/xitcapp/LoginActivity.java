@@ -48,5 +48,9 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "Username dan password SALAH", Toast.LENGTH_LONG).show();
         }
     }
+    public void doInputRegistration(View view) {
+            Intent i = new Intent(LoginActivity.this, RegisterActivity.class);
+            startActivity(i);
+    }
 
 }

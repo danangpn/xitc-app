@@ -20,6 +20,10 @@
             android:label="Home"
             android:parentActivityName=".LoginActivity">
         </activity>
+        <activity android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".RegisterActivity">
+        </activity>
     </application>
 
 </manifest>
